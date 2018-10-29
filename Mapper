@@ -1,0 +1,284 @@
+
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/socicon.css" rel="stylesheet" type="text/css" media="all">
+        <link href="css/iconsmind.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all"/>
+        <link href="css/interface-icons.css" rel="stylesheet" type="text/css" media="all"/>
+        <link href="css/owl.carousel.css" rel="stylesheet" type="text/css" media="all"/>
+        <link href="css/theme.css" rel="stylesheet" type="text/css" media="all"/>
+        <link href="css/custom.css" rel="stylesheet" type="text/css" media="all"/>
+        <link href="css/gmenu.css" rel="stylesheet" type="text/css" media="all"/>
+          <link href="css/new.css" rel="stylesheet" type="text/css" media="all"/>
+        <link href='https://fonts.googleapis.com/css?family=Lora:400,400italic,700|Montserrat:400,700' rel='stylesheet' type='text/css'>
+        <script src="https://www.gstatic.com/firebasejs/5.5.5/firebase.js"></script>
+        <style type="text/css">
+        #map{
+          height:400px;
+          width:100%;
+        }
+        </style>
+<script>
+  // Initialize Firebase
+  var config = {
+  *****
+  };
+  firebase.initializeApp(config);
+</script>
+    </head>
+    <body data-reveal-selectors="section:not(.masonry):not(:first-of-type):not(.parallax)">
+
+
+        <div class="nav-container">
+
+
+
+            <nav>
+
+                <div class="nav-bar" data-fixed-at="200">
+                    <div class="nav-module logo-module left">
+                        <a href="index.html"><img alt="logo" class="logo logo-dark" src="img/logo-dark.png"> <img alt="logo" class="logo logo-light" src="img/logo-light.png"></a>
+                    </div>
+                    <div class="col-xs-10 text-right">
+                        <div class="ladder">
+                                <a href="#"><img src="img/alert.png"/></a>
+
+                                <a id="wrapper" href="#">
+
+                                    <span   id="menu" class="photoshow">
+
+                                    </span>
+                                </a>
+                            </div>
+
+
+                            </div>
+                </div>
+
+<div class="arrow"></div>
+<div id="gridbox">
+<div id="innergrid">
+<ul id="icons">
+<li><span class="menu-li2">Antoine Pilot</span></li>
+<li><span class="menu-li2" style="margin-bottom: 15px;">antoinepilot.imo@gmail.com</span></li>
+<hr style="margin-top: 0px;margin-bottom: 10px;width: 68%;">
+
+<li class="menu-li"><a href="#" class="active"><img id="account" src="images/account.png"><span class="sub-li">My Profil</span></a></li>
+<li class="menu-li"><a href="#"><img id="settings" src="images/settings.png"><span class="sub-li">Settings</span></a></li>
+<li class="menu-li"><a href="#"><img id="logout" src="images/logout.png"><span class="sub-li profilout google-btn" onclick="document.location.href='index.html'">Logout</span></a></li>
+
+
+</ul>
+</div>
+
+</div>
+
+                <div class="nav-mobile-toggle visible-sm visible-xs">
+                    <i class="icon-Align-JustifyAll icon icon--sm"></i>
+
+                </div>
+            </nav>
+
+        </div>
+        <section class="imagebg image--light height-40" data-overlay="1">
+          <div class="container">
+              <div class="row" style="margin-top:10px;">
+                  <div class="col-sm-2 text-left">
+
+                    <div class="photoshow-big">
+                      <span>Text en dur</span>
+                    </div>
+                  </div>
+
+                        <div class="col-sm-6 text-left" >
+                      <h3 class="profil"></h3>
+                      <h4 class="usermail"></h4>
+                    <p class="head-p">Bienvenue sur votre espace</p>
+
+                  </div>
+
+              </div>
+                </div>
+</section>
+
+
+
+        <div class="main-container">
+  <div id="map"></div>
+ </div>
+ <section class="height-60 cover cover-15">
+ 		                <div class="container pos-vertical-center">
+ 		                    <div class="row">
+ 		                        <div class="col-sm-12">
+ 		                            <h3>Curated travel experiences
+ 		                                <br class="hidden-xs"> from seasoned travellers and local experts</h3>
+ 		                            <form class="form--square form--merge">
+ 		                                <input type="text" class="col-sm-6" placeholder="Search keywords or places to begin">
+ 		                                <button type="submit" class="btn btn--primary vpe">Search over 1,000 tours</button>
+ 		                            </form>
+ 		                            <span>
+ 		                                <em>or</em>
+ 		                                <a href="#">browse all tours</a>
+ 		                            </span>
+ 		                        </div>
+ 		                    </div>
+
+ 		                </div>
+
+ 		            </section>
+
+
+ <footer class="footer-2 text-center-xs bg--white">
+		    <div class="container">
+		        <div class="row">
+		            <div class="col-sm-8">
+		                <ul class="footer__navigation">
+		                    <li>
+		                        <a href="#">About</a>
+		                    </li>
+		                    <li>
+		                        <a href="#">Terms</a>
+		                    </li>
+		                    <li>
+		                        <a href="#">Careers</a>
+		                    </li>
+		                    <li>
+		                        <a href="#">Contact</a>
+		                    </li>
+		                </ul>
+		            </div>
+		            <div class="col-sm-4 text-right text-center-xs">
+		                <ul class="social-list">
+		                    <li>
+		                        <a href="#"><i class="socicon-twitter"></i></a>
+		                    </li>
+		                    <li>
+		                        <a href="#"><i class="socicon-dribbble"></i></a>
+		                    </li>
+		                    <li>
+		                        <a href="#"><i class="socicon-vimeo"></i></a>
+		                    </li>
+		                    <li>
+		                        <a href="#"><i class="socicon-instagram"></i></a>
+		                    </li>
+		                </ul>
+		            </div>
+		        </div>
+		        <div class="row">
+		            <div class="col-sm-12">
+		                <a class="type--underline" href="#">hello@pillarstudio.net</a>
+		            </div>
+		        </div>
+		        <div class="row">
+		            <div class="col-sm-12">
+		                <div class="footer__lower">
+		                    <span class="type--fine-print">© Copyright
+		                    <span class="update-year">2016</span> Medium Rare - All
+		                    Rights Reserved</span>
+		                </div>
+		            </div>
+		        </div>
+		    </div>
+		</footer>
+
+
+        <script src="js/jquery-2.1.4.min.js"></script>
+        <script src="js/scrollreveal.min.js"></script>
+        <script src="js/parallax.js"></script>
+        <script src="js/scripts.js"></script>
+            <script src="firebase/connect-mapper.js"></script>
+            <script src="js/gjs.js"></script> <script type="text/javascript">
+             	function initMap(){
+             		// Map options
+             var option = {
+             	zoom:9,
+             	center:{lat:49.894066,lng:2.295753}
+             	}
+             	// New Map
+             	var map = new
+             	google.maps.Map(document.getElementById('map'),option);
+             	// listen forclick
+             	google.maps.event.addListener(map, 'click',
+             function(event){
+             	addMarker({coords:event.latLng});
+             });
+
+
+
+
+             /*
+
+             	// Add marker
+             	var marker = new google.maps.Marker({
+             position:{lat:48.864716,lng:2.349014},
+             map:map,
+             icon:'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png'
+             });
+
+             var infoWindow = new google.maps.InfoWindow({
+             	content:'<h1>Test</h1>'
+             });
+
+             marker.addListener('click',function(){
+             infoWindow.open(map, marker);
+             });
+             }*/
+
+             // array of Markers
+             var markers = [
+             {
+             	coords:{lat:48.864716,lng:2.349014},
+             iconImage:'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png',
+             content:'<h1>test1</h1>'
+
+             },
+             {
+             	coords:{lat:49.894066,lng:2.295753},
+             iconImage:'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png',
+             content:'<h1>test2</h1>'
+
+             }
+
+
+             ];
+
+             // loop incrémentation
+             for (var i = 0;i < markers.length; i++){
+             	addMarker(markers[i]);
+             }
+
+
+
+             // add Marker function
+             function addMarker(props){
+             	var marker = new google.maps.Marker({
+             position:props.coords,
+
+             map:map,
+             //icon:'props.iconImage'
+             });
+             	// verif si ya une icone custom
+             	if(props.iconImage){
+             		// set icon image
+             		marker.setIcon(props.iconImage);
+             		}
+             	if (props.content) {
+             var infoWindow = new google.maps.InfoWindow({
+             	content:props.content
+             });
+
+             marker.addListener('click',function(){
+             infoWindow.open(map, marker);
+             });
+             	}
+             	}
+             }
+             </script>
+                  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDjjCnY1j15VAmLK3PbpncuyFgVAa9RqTM&callback=initMap"
+                 async defer></script>
+    </body>
+</html>
